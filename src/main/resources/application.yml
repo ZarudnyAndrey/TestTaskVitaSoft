@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  tomcat:
+    max-swallow-size: -1
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+
+  servlet:
+    multipart.max-file-size: 3MB
